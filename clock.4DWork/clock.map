@@ -1,0 +1,8 @@
+linked : 8     main 00BD
+linked : 7     DoGFXObjects 050C
+skipped: 6     UpdateObjects ----
+linked : 5     ActivateForm 050D
+linked : 4     WriteObject 0613
+linked : 3     ReadObject 0662
+linked : 2     seroutOcs 06CE
+linked : 1     seroutCS 06DD

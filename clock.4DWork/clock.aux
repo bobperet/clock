@@ -1,0 +1,292 @@
+==============================================================
+==============================================================
+4DGL Compiler 2.7.1.0 -- Copyright 2004-2012 4D Labs
+** C:\Workspace\aClock\clock.4DWork\clock.4DGenieS
+compiled Mon Dec  8 19:03:38 2014
+
+==============================================================
+==============================================================
+
+
+No Ref for file
+[LINKING]
+function 8, main, address 189
+(main entry point)
+stack usage 112 + 4
+function 'main' requires no arguments
+function 'main' has no return value
+
+[LINKING]
+function 7, DoGFXObjects, address 1292
+stack usage 0 + 4
+!Empty Function
+[LINKING]
+function 5, ActivateForm, address 1293
+stack usage 6 + 4
+function 'ActivateForm' requires 1 argument
+function 'ActivateForm' has no return value
+
+[LINKING]
+function 4, WriteObject, address 1555
+stack usage 8 + 4
+function 'WriteObject' requires 3 argument
+function 'WriteObject' has no return value
+
+[LINKING]
+function 3, ReadObject, address 1634
+stack usage 6 + 4
+function 'ReadObject' requires 2 argument
+function 'ReadObject' has no return value
+
+[LINKING]
+function 2, seroutOcs, address 1742
+stack usage 0 + 4
+function 'seroutOcs' requires no arguments
+function 'seroutOcs' has no return value
+
+[LINKING]
+function 1, seroutCS, address 1757
+stack usage 0 + 4
+function 'seroutCS' requires 1 argument
+function 'seroutCS' has no return value
+
+[RESERVED WORDS]
+#inherit
+#LISTCODE
+#MODE
+#STACK
+#OPTIMIZE_ON
+#OPTIMIZE_OFF
+byte
+word
+dword
+float
+private
+#IF
+#IFNOT
+#ELSE
+#ENDIF
+#CONST
+#constant
+#USE
+USING
+func
+endfunc
+var
+#STOP
+#DATA
+#ASM
+#END
+#platform
+EXISTS
+#ERROR
+#MESSAGE
+#NOTICE
+sizeof
+argcount
+if
+else
+endif
+while
+wend
+repeat
+until
+forever
+return
+break
+continue
+for
+next
+switch
+case
+default
+endswitch
+print
+goto
+gosub
+endsub
+mcall
+lookup8
+lookup16
+
+[MACRO]
+
+[CONSTANTS]
+__MAXMEM                          00003840      14400  (usage 1)
+__MAXPROG                         00003840      14400  (usage 1)
+ACK                               00000006          6  (usage 6)
+BACKGROUND_COLOUR                 00000011         17  (usage 3)
+BGIMAGE                           00000020         32  (usage 3)
+CMDLenMAX                         00000050         80  (usage 6)
+COM0                              0000F804      63492  (usage 3)
+I_ENABLED                         00008000      32768  (usage 3)
+I_STAYONTOP                       00000100        256  (usage 3)
+I_TOUCH_DISABLE                   00000020         32  (usage 6)
+IMAGE_INDEX                       00000009          9  (usage 22)
+IMAGE_TAG                         0000000C         12  (usage 9)
+IPD_DOWN                          00000010         16  (usage 3)
+IPD_OBJVidx                       00000014         20  (usage 2)
+IPD_P1                            00000002          2  (usage 4)
+IPD_P2                            00000004          4  (usage 10)
+IPD_P3                            00000006          6  (usage 4)
+IPD_P4                            00000008          8  (usage 2)
+IPD_P5                            0000000A         10  (usage 4)
+IPD_P6                            0000000C         12  (usage 12)
+IPD_RELEASE                       00000012         18  (usage 5)
+iStatictext0                      00000000          0  (usage 3)
+iStatictext1                      00000001          1  (usage 3)
+iStatictext2                      00000002          2  (usage 3)
+iStatictext3                      00000003          3  (usage 3)
+iStatictext4                      00000004          4  (usage 3)
+iStatictext5                      00000005          5  (usage 3)
+LANDSCAPE                         00000000          0  (usage 3)
+MaxTotObjects                     00000021         33  (usage 6)
+NAK                               00000015         21  (usage 12)
+OT_ACTIVATE                       00000067        103  (usage 2)
+OT_NEXTFRAME                      00000068        104  (usage 2)
+OT_PREVFRAME                      00000069        105  (usage 2)
+OT_REPORT                         00000064        100  (usage 2)
+OT_SETANOTHER                     00000066        102  (usage 2)
+OT_SETCONST                       00000065        101  (usage 2)
+PICASO                            00000001          1  (usage 3)
+READ_OBJ                          00000000          0  (usage 3)
+REPORT_EVENT                      00000007          7  (usage 2)
+REPORT_OBJ                        00000005          5  (usage 3)
+t4Dbutton                         0000001E         30  (usage 9)
+tAngularmeter                     00000007          7  (usage 3)
+tAniButton                        0000001F         31  (usage 3)
+tColorPicker                      00000020         32  (usage 3)
+tCoolgauge                        00000008          8  (usage 3)
+tCustomdigits                     00000009          9  (usage 3)
+tDipSwitch                        00000000          0  (usage 3)
+tForm                             0000000A         10  (usage 14)
+tGauge                            0000000B         11  (usage 3)
+tGSlider                          00000004          4  (usage 3)
+tImage                            0000000C         12  (usage 3)
+tKeyboard                         0000000D         13  (usage 3)
+tKnob                             00000001          1  (usage 3)
+tLed                              0000000E         14  (usage 3)
+tLeddigits                        0000000F         15  (usage 3)
+tMeter                            00000010         16  (usage 3)
+TOUCH_ENABLE                      00000000          0  (usage 3)
+TOUCH_GETX                        00000001          1  (usage 3)
+TOUCH_GETY                        00000002          2  (usage 3)
+TOUCH_MOVING                      00000003          3  (usage 3)
+TOUCH_PRESSED                     00000001          1  (usage 6)
+TOUCH_RELEASED                    00000002          2  (usage 12)
+TOUCH_STATUS                      00000000          0  (usage 3)
+tPinInput                         0000001D         29  (usage 6)
+tPinOutput                        0000001C         28  (usage 6)
+tRockerSwitch                     00000002          2  (usage 3)
+tRotarySwitch                     00000003          3  (usage 3)
+tSounds                           00000016         22  (usage 6)
+tSpectrum                         00000018         24  (usage 3)
+tStaticText                       00000015         21  (usage 3)
+tStrings                          00000011         17  (usage 3)
+tTank                             0000001A         26  (usage 3)
+tThermometer                      00000012         18  (usage 3)
+tTimer                            00000017         23  (usage 6)
+tTrackbar                         00000005          5  (usage 3)
+tUserButton                       00000021         33  (usage 3)
+tUserImages                       0000001B         27  (usage 3)
+tUserled                          00000013         19  (usage 3)
+tVideo                            00000014         20  (usage 3)
+tWinButton                        00000006          6  (usage 6)
+WRITE_CONTRAST                    00000004          4  (usage 3)
+WRITE_OBJ                         00000001          1  (usage 3)
+
+[PmmC FUNCTIONS]
+com_Count                         FFFFFF86        -122  args=0 r=1  (usage 3)
+com_Init                          FFFFFF88        -120  args=3 r=0  (usage 3)
+com_SetBaud                       FFFFFF72        -142  args=2 r=1  (usage 3)
+com_TXbuffer                      FFFFFF82        -126  args=3 r=0  (usage 3)
+file_LoadImageControl             FFFFFF04        -252  args=3 r=1  (usage 3)
+file_Mount                        FFFFFF03        -253  args=0 r=1  (usage 6)
+gfx_Cls                           FFFFFFCD         -51  args=0 r=0  (usage 6)
+gfx_Contrast                      FFFFFF9C        -100  args=1 r=1  (usage 3)
+gfx_ScreenMode                    FFFFFF9E         -98  args=1 r=1  (usage 3)
+gfx_Set                           FFFFFFCE         -50  args=2 r=0  (usage 3)
+img_ClearAttributes               FFFFFF45        -187  args=3 r=1  (usage 3)
+img_Disable                       FFFFFF4C        -180  args=2 r=1  (usage 6)
+img_GetWord                       FFFFFF48        -184  args=3 r=1  (usage 23)
+img_SetAttributes                 FFFFFF46        -186  args=3 r=1  (usage 6)
+img_SetWord                       FFFFFF49        -183  args=4 r=1  (usage 8)
+img_Show                          FFFFFF47        -185  args=2 r=1  (usage 8)
+img_Touched                       FFFFFF44        -188  args=2 r=1  (usage 3)
+pause                             FFFFFFFA          -6  args=1 r=0  (usage 6)
+putstr                            FFFFFFF7          -9  args=1 r=1  (usage 6)
+serin                             FFFFFFFF          -1  args=0 r=1  (usage 3)
+serout                            FFFFFFFD          -3  args=1 r=0  (usage 24)
+sys_EventsResume                  FFFFFF3C        -196  args=0 r=0  (usage 3)
+touch_Get                         FFFFFF37        -201  args=1 r=1  (usage 9)
+touch_Set                         FFFFFF38        -200  args=1 r=0  (usage 3)
+
+[USER FUNCTIONS]
+ActivateForm                      0000050D  args=1 r=0  (usage 8)
+DoGFXObjects                      0000050C  args=0 r=0  (usage 6)
+ReadObject                        00000662  args=2 r=0  (usage 3)
+seroutCS                          000006DD  args=1 r=0  (usage 25)
+seroutOcs                         000006CE  args=0 r=0  (usage 5)
+WriteObject                       00000613  args=3 r=0  (usage 11)
+
+[GLOBAL VARIABLES]
+cmd                                   84  word[80]   (usage 33)
+comRX                                 44  word[40]   (usage 3)
+cs                                   164  word       (usage 24)
+curform                               37  word       (usage 30)
+disk                                   1  word       (usage 6)
+hndl                                   2  word       (usage 60)
+input                                 42  word       (usage 8)
+inputtype                             40  word       (usage 13)
+object                                43  word       (usage 6)
+Ocs                                  165  word       (usage 9)
+oObjects                               3  word[34]   (usage 108)
+TState                                41  word       (usage 14)
+x                                     38  word       (usage 12)
+y                                     39  word       (usage 9)
+
+[PRIVATE VARIABLES]
+
+[DATA]
+0007: 00 00 04 00 04 00 06 00 00 00 00 00 00 00 00 00     ................
+0017: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+0027: 02 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00     ..ÿÿÿÿ..........
+0037: 00 00 00 00 00 00 00 00 00 00 06 00 00 00 01 00     ................
+0047: 02 00 03 00 04 00 05 00 00 00 00 00 00 00 00 00     ................
+0057: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+0067: 00 00 00 00 FF FF 4D 6F 75 6E 74 69 6E 67 2E 2E     ....ÿÿMounting..
+0077: 2E 0A 00 44 72 69 76 65 20 6E 6F 74 20 6D 6F 75     ...Drive not mou
+0087: 6E 74 65 64 2E 2E 2E 00 43 4C 4F 43 4B 7E 31 2E     nted....CLOCK~1.
+0097: 64 61 74 00 43 4C 4F 43 4B 7E 31 2E 67 63 69 00     dat.CLOCK~1.gci.
+00A7: 0B 05 0B 05 0B 05 0B 05 0B 05 0B 05 0B 05 0B 05     ................
+00B7: 0B 05 0B 05 0B 05                                   ......
+
+[__MAXPROG]
+14400
+[__MAXMEM]
+14400
+
+[PROGRAM]
+main
+[CODESIZE]
+1775
+[MEMSIZE]
+165
+[ARGCOUNT]
+0
+[RETURNS]
+NO
+[STACKSIZE]
+0 (AUTO)
+[STACK_ESTIMATE]
+164   (nb:- worst case estimate)
+[MODE]
+0
+
+[PROJECT]
+C:\Workspace\aClock\clock.4DWork\clock.4DGenieS
+C:\Program Files\4D Labs\4D Workshop 4 IDE\include\uLCD-32PTU.fnc
+C:\Program Files\4D Labs\4D Workshop 4 IDE\include\PicasoFunctions.fnc
+C:\Program Files\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
+C:\Program Files\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
+C:\Workspace\aClock\clock.4DWork\clockConst.inc

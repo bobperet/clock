@@ -1,0 +1,639 @@
+﻿Version     0.0
+Platform    uLCD-32PTU-L
+PlatRes     240x320
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    SndBuf                       0
+end
+Form
+    Name                         Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Sounds
+    Name                         Sounds0
+    WavFiles                     connect.wav\nbigben!1.wav\nhourly!1.wav
+    OnPlayingChanged             ''
+    OnVolumeChanged              ''
+end
+UserImages
+    Name                         Userimages1
+    Height                       87
+    Images                       1.jpg\n2.jpg\nblank.jpg
+    Left                         18
+    Stretch                      No
+    Top                          70
+    Width                        66
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages2
+    Height                       87
+    Images                       0.jpg\n1.jpg\n2.jpg\n3.jpg\n4.jpg\n5.jpg\n6.jpg\n7.jpg\n8.jpg\n9.jpg
+    Left                         84
+    Stretch                      No
+    Top                          70
+    Width                        66
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages3
+    Height                       87
+    Images                       0.jpg\n1.jpg\n2.jpg\n3.jpg\n4.jpg\n5.jpg
+    Left                         173
+    Stretch                      No
+    Top                          70
+    Width                        66
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages4
+    Height                       87
+    Images                       0.jpg\n1.jpg\n2.jpg\n3.jpg\n4.jpg\n5.jpg\n6.jpg\n7.jpg\n8.jpg\n9.jpg
+    Left                         239
+    Stretch                      No
+    Top                          70
+    Width                        66
+    OnChanged                    ''
+end
+Image
+    Name                         Image0
+    Height                       61
+    Image                        colon.jpg
+    Left                         152
+    Source.Height                61
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 16
+    Visible                      Yes
+    Top                          82
+    Width                        19
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserImages
+    Name                         Userimages5
+    Height                       24
+    Images                       wifiBlank.jpg\nwifi.jpg
+    Left                         296
+    Stretch                      No
+    Top                          0
+    Width                        24
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages8
+    Height                       50
+    Images                       blank.jpg\n1.jpg
+    Left                         0
+    Stretch                      Yes
+    Top                          188
+    Width                        40
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton0
+    Height                       44
+    Images                       ''
+    Left                         164
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          192
+    Width                        30
+    OnChanged                    Form1Activate
+end
+Strings
+    Name                         Strings6
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       31
+    FGcolor                      DEEPSKYBLUE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Comic Sans MS'
+    Font.Opaque                  Yes
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         85
+    Strings                      'September 31\n'
+    StringsStyle                 Message
+    Top                          157
+    Visible                      Yes
+    Width                        155
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings7
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       70
+    FGcolor                      DEEPSKYBLUE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Comic Sans MS'
+    Font.Opaque                  Yes
+    Font.Size                    69
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         20
+    Strings                      Wednesday\n
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        275
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings8
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       46
+    FGcolor                      DEEPSKYBLUE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Comic Sans MS'
+    Font.Opaque                  Yes
+    Font.Size                    38
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          194
+    Visible                      Yes
+    Width                        71
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings9
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       25
+    FGcolor                      DEEPSKYBLUE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Comic Sans MS'
+    Font.Opaque                  Yes
+    Font.Size                    24
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         75
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          204
+    Visible                      Yes
+    Width                        89
+    OnChanged                    ''
+end
+Form
+    Name                         Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton0
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Clock
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       36
+    Left                         244
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          204
+    Visible                      Yes
+    Width                        76
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton1
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      TempGraph
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       33
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          207
+    Visible                      Yes
+    Width                        80
+    OnChanged                    Form2Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+4Dbutton
+    Name                         4Dbutton0
+    Height                       48
+    Left                         32
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Yellow
+    Top                          0
+    Type                         Slider01
+    Width                        48
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext1
+    AutoSize                     Yes
+    Caption                      'Hourly Chimes'
+    Color                        BLACK
+    Font.Color                   GOLD
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       20
+    Left                         92
+    Top                          12
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        110
+    WordWrap                     Yes
+end
+WinButton
+    Name                         Winbutton2
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Snd1
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       20
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          16
+    Visible                      Yes
+    Width                        35
+    OnChanged                    Sounds0Tune0
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton3
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Snd2
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       20
+    Left                         244
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          16
+    Visible                      Yes
+    Width                        35
+    OnChanged                    Sounds0Tune1
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton4
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Snd3
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       20
+    Left                         280
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          16
+    Visible                      Yes
+    Width                        35
+    OnChanged                    Sounds0Tune2
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext2
+    AutoSize                     Yes
+    Caption                      '0    1'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       12
+    Left                         44
+    Top                          0
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        30
+    WordWrap                     Yes
+end
+Strings
+    Name                         Strings0
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       141
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Book
+    Top                          44
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+Form
+    Name                         Form2
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Scope
+    Name                         Scope0
+    Color                        BLACK
+    GraticuleColor               0x005100
+    GraticuleVisible             Yes
+    GraticuleXinc                13
+    GraticuleYinc                10
+    Height                       200
+    Left                         25
+    RefreshIncrement             1
+    Top                          38
+    Trace1Color                  LIME
+    Trace2Color                  BLUE
+    Trace3Color                  RED
+    Trace4Color                  FUCHSIA
+    Traces                       1
+    Width                        295
+    Xmag                         0
+    Yamp                         100
+    YLine                        60
+    YLineColor                   VIOLET
+    YLineVisible                 No
+    Yoffset                      0
+end
+StaticText
+    Name                         Statictext0
+    AutoSize                     Yes
+    Caption                      'Temperature last 24 Hours'
+    Color                        BLACK
+    Font.Color                   AQUA
+    Font.Effects                 []
+    Font.Name                    'Comic Sans MS'
+    Font.Size                    18
+    Font.Style                   []
+    Height                       30
+    Left                         0
+    Top                          0
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        320
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton1
+    Height                       33
+    Images                       ''
+    Left                         302
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        18
+    OnChanged                    Form0Activate
+end
+Scale
+    Name                         Scale0
+    Alignment                    Center
+    Color                        BLACK
+    Digits                       3
+    Font.Color                   GREEN
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    7
+    Font.Style                   []
+    Height                       215
+    Layout                       Center
+    LeadingZero                  No
+    Left                         0
+    Maxvalue                     110
+    Minvalue                     -20
+    Orientation                  Vertical
+    PeakColor                    LIME
+    PeakLevel                    80
+    Scalecolor                   GREEN
+    ScaleOffset                  4
+    ShowSign                     Yes
+    TickMarks                    None
+    Ticks                        5
+    TicksHeight                  5
+    TicksWidth                   1
+    Top                          30
+    Transparent                  No
+    Width                        25
+end
